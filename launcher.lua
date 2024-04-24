@@ -1,9 +1,9 @@
 network = peripheral.getNames() -- get all peripherals
 launchers = {} 
 
-code_B = "&y6M#G5KKN*8oc9#5nEU3^2H^"
-code_M = "&!gv2@sGFuT2A52@%5Gru2X38"
-code_N = "w5V#$@kQM7723^bK&QL98$!7@"
+code_B = "CODE_1"
+code_M = "CODE_2"
+code_N = "CODE_3"
 
 for i=1,#network do --get every silocontroller on the wired network
     network[i] = peripheral.wrap(network[i])
